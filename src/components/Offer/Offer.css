@@ -1,0 +1,43 @@
+.container2 {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  max-width: 120rem;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.offer {
+  background: linear-gradient(
+      to right,
+      rgba(250, 158, 44, 0.8),
+      rgba(143, 80, 251, 0.8)
+    ),
+    url('../../Images/hotel_the_paradise.jpg') center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.offer-content {
+  background-color: #fff;
+  text-align: center;
+  padding: 6rem 15rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.discount {
+  background-color: var(--yellow-solid);
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  outline: 2px solid var(--yellow-solid);
+  outline-offset: 0.5rem;
+}
+.paragraph {
+  color: #a5a5a5;
+  margin-bottom: 2.5rem;
+}
